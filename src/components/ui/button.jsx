@@ -21,7 +21,7 @@ const buttonVariants = cva(
         border:
           "border border-input bg-foreground hover:bg-accent hover:text-foreground",
         gradient:
-          "bg-gradient-to-r from-yellow-400 via-red-500 to-orange-600 text-white py-2 px-4 rounded transition duration-300 ease-in-out hover:bg-gradient-to-l hover:from-orange-600 hover:to-yellow-500",
+          "bg-gradient-to-r from-yellow-400 via-red-500 to-orange-600 text-white py-2 px-4 rounded-sm transition duration-300 ease-in-out hover:bg-gradient-to-l hover:from-orange-600 hover:to-yellow-500",
       },
       size: {
         default: "h-10 px-4 py-2",

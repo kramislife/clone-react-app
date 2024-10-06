@@ -178,4 +178,7 @@ button:focus-visible {
   body {
     @apply bg-foreground text-background;
   }
+  .gradient {
+    @apply bg-gradient-to-r from-yellow-400 via-red-500 to-orange-600 text-white text-transparent bg-clip-text;
+  }
 }
