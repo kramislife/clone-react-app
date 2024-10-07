@@ -19,7 +19,7 @@ const Features = () => {
             {featuresItems.map((item) => (
               <div
                 key={item.id}
-                className="bg-neutral-800 text-gray-200 rounded-lg shadow-lg p-6 sm:w-1/2 lg:w-1/4 flex flex-col items-center transition-transform duration-300 lg:hover:scale-110 hover:scale-105"
+                className="bg-neutral-800 text-gray-200 rounded-lg shadow-lg p-6 sm:w-1/2 lg:w-1/4 md:w-full flex flex-col lg:items-center transition-transform duration-300 lg:hover:scale-110 hover:scale-105"
               >
                 <div className="flex">
                   <div className="lg:mb-20 mr-10 flex items-center justify-center  text-orange-500 rounded-full w-15 h-15">

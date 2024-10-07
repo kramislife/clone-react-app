@@ -11,7 +11,9 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center flex-shrink-0">
               <img className="h-10 w-10 mr-3" src={logo} alt="logo" />
-              <span className="text-xl tracking-tighter">Virtual R</span>
+              <span className="gradient text-xl tracking-tighter">
+                Elysium VR
+              </span>
             </div>
 
             {/* Desktop Navigation Links */}

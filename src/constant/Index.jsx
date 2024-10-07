@@ -5,6 +5,10 @@ import {
   Users,
   Wrench,
   Zap,
+  Brush,
+  Code,
+  Cpu,
+  Rocket,
 } from "lucide-react";
 
 //For Navbar.jsx File
@@ -131,3 +135,64 @@ export const featuresItems = [
     icon: <Cloud />,
   },
 ];
+
+// For Workflow.jsx File
+export const workFlow = [
+  {
+    id: 1,
+    title: "Design",
+    description:
+      "Create a detailed design plan that outlines your VR project's structure, goals, and target audience.",
+    icon: <Brush />, 
+  },
+  {
+    id: 2,
+    title: "Build",
+    description:
+      "Develop immersive experiences by coding and structuring your virtual world using advanced tools and techniques.",
+    icon: <Code />, 
+  },
+  {
+    id: 3,
+    title: "Optimize",
+    description:
+      "Fine-tune your VR environment for optimal performance and smooth user interactions across devices.",
+    icon: <Cpu />, 
+  },
+  {
+    id: 4,
+    title: "Collaborate",
+    description:
+      "Work closely with your team to test and refine the experience, ensuring it meets the highest standards.",
+    icon: <Users />, 
+  },
+  {
+    id: 5,
+    title: "Launch",
+    description:
+      "Deploy your VR experience and share it with your audience, ready to explore and engage with your virtual world.",
+    icon: <Rocket />, 
+  },
+];
+
+
+{/* <div className="flex flex-wrap justify-center">
+<div className="p-2 w-full lg:w-1/2">
+  <img src={Code} alt="Coding" />
+</div>
+<div className="pt-12 w-full lg:w-1/2">
+  {workFlow.map((item) => (
+    <div key={item.id} className="flex mb-12">
+      <div className="px-5 pb-12 flex items-center justify-center text-orange-500 rounded-full w-15 h-15">
+        {item.icon}
+      </div>
+      <div>
+        <h5 className="text-xl font-semibold mb-2">{item.title}</h5>
+        <p className="text-sm text-neutral-400 leading-relaxed">
+          {item.description}
+        </p>
+      </div>
+    </div>
+  ))}
+</div>
+</div> */}
