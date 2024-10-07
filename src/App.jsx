@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Features from "./components/Features/Features";
 import Workflow from "./components/Workflow/Workflow";
 import Pricing from "./components/Pricing/Pricing";
+import Testimony from "./components/Testimony/Testimony";
 
 const App = () => {
   return (
@@ -13,8 +14,9 @@ const App = () => {
         <Hero />
       </div>
       <Features />
-      <Workflow/>
-      <Pricing/>
+      <Workflow />
+      <Pricing />
+      <Testimony />
     </>
   );
 };

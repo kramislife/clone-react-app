@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/card";
 
 import { pricingItems } from "../../constant/Index";
-import { ShieldCheck } from "lucide-react";
+import { CircleCheck } from "lucide-react";
 
 const Pricing = () => {
   const mostUsed = (item) => item.mostUsed; // Function to check if the plan is most used
@@ -32,9 +32,9 @@ const Pricing = () => {
           {pricingItems.map((item) => (
             <Card
               key={item.id}
-              className="border border-orange-800 w-[300px] h-[60vh] flex flex-col py-2"
+              className="border border-orange-800 w-[300px] h-[60vh] flex flex-col"
             >
-              <CardHeader className="space-y-4">
+              <CardHeader className="space-y-4 pb-10">
                 <div className="flex items-center">
                   <CardTitle>{item.title}</CardTitle>
                   {mostUsed(item) && (
@@ -49,13 +49,14 @@ const Pricing = () => {
                   {item.price}{" "}
                   <span className="text-sm text-neutral-400">/month</span>
                 </span>
-                <ul className="space-y-3 pt-2">
+                <ul className="space-y-3 pt-5">
                   {item.features.map((feature, index) => (
                     <li
                       key={index}
                       className="flex text-sm text-neutral-400 gap-4 items-center"
                     >
-                      <ShieldCheck className="text-green-500" /> {feature}
+                      <CircleCheck className="text-green-500 size-5" />{" "}
+                      {feature}
                     </li>
                   ))}
                 </ul>

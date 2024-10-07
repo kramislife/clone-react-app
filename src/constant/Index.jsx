@@ -11,6 +11,11 @@ import {
   Rocket,
 } from "lucide-react";
 
+import doe from "../assets/doe.jpg";
+import jane from "../assets/jane.jpg";
+import lee from "../assets/lee.png";
+import sarah from "../assets/sarah.jpg";
+
 //For Navbar.jsx File
 export const NavItems = [
   {
@@ -227,5 +232,45 @@ export const pricingItems = [
       "Custom storage",
     ],
     mostUsed: false,
+  },
+];
+
+// For Testimony.jsx File
+export const testimony = [
+  {
+    id: 1,
+    name: "John Doe",
+    title: "Founder, VR Universe",
+    description:
+      "Elysium VR has completely revolutionized how we work. The immersive tools and seamless collaboration have made our projects come to life effortlessly. It feels like stepping into a new dimension where creativity meets reality. ",
+    image: doe,
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: "Jane Smith",
+    title: "Creative Director, Immersive Studios",
+    description:
+      "Thanks to Elysium VR, our team's productivity has soared! The platform's cutting-edge features allow us to push the boundaries of creativity, innovation, and brainstorming sessions to full-scale virtual experiences.",
+    image: jane,
+    rating: 4,
+  },
+  {
+    id: 3,
+    name: "Michael Lee",
+    title: "CTO, Future Reality Co.",
+    description:
+      "Since switching to Elysium VR, we’ve seen incredible results in bringing our complex VR projects to life. The platform’s intuitive design and seamless integration have made our workflows smoother and faster.",
+    image: lee,
+    rating: 5,
+  },
+  {
+    id: 4,
+    name: "Sarah Johnson",
+    title: "Lead Developer, DreamWorks VR",
+    description:
+      "Elysium VR has been a game-changer for our development team. The platform's intuitive interface and powerful features have helped us create truly immersive virtual environments with ease.",
+    image: sarah,
+    rating: 4,
   },
 ];
