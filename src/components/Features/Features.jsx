@@ -9,10 +9,10 @@ const Features = () => {
             Features
           </h1>
           <p className="text-3xl lg:text-4xl text-neutral-300 text-center lg:my-10 my-5 lg:leading-snug leading-normal tracking-wide">
-            Bring your virtual visions{" "}
+            Discover What Makes{" "}
             <span className="gradient">
-              to <br />
-              life with VirtualR!
+              <br />
+              Elysium Unique
             </span>
           </p>
           <div className="flex flex-wrap justify-center my-3 lg:gap-8 gap-5">

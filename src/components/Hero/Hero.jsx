@@ -21,9 +21,9 @@ const Hero = () => {
           className="text-4xl lg:text-5xl text-center lg:leading-snug leading-normal tracking-wide"
           variants={titleVariants}
         >
-          VirtualR build tools{" "}
+          Step Into Elysium: Where{" "}
           <motion.span className="gradient" variants={gradientVariants}>
-            for <br /> developers
+            Dreams <br /> Become Reality
           </motion.span>
         </motion.h1>
 
@@ -31,9 +31,10 @@ const Hero = () => {
           className="text-sm lg:text-lg text-neutral-400 text-center my-5 lg:w-3/4 leading-relaxed"
           variants={buttonVariants}
         >
-          Empower your creativity and bring your VR app ideas to life with our
-          intuitive development tools. Get started today and turn your
-          imagination into immersive reality!
+          Welcome to Elysium, where imagination comes alive! Immerse yourself in
+          stunning virtual worlds, embark on thrilling adventures, and connect
+          with fellow dreamers. Your journey starts here—step into Elysium and
+          unlock endless possibilities!
         </motion.p>
 
         <motion.div
