@@ -15,7 +15,7 @@ const MobileNavbar = () => {
 
       {isOpen && (
         <>
-          <div className="lg:hidden absolute top-16 -right-1 w-80 bg-neutral-900 rounded-md p-4">
+          <div className="lg:hidden absolute top-14 -right-3 w-80 bg-neutral-900 rounded-md p-4">
             <ul>
               {NavItems.map((item) => (
                 <li

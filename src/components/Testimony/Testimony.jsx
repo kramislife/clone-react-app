@@ -37,7 +37,7 @@ const Testimony = () => {
         <div className="flex flex-wrap gap-8 justify-center mt-14">
           {testimony.map((item) => (
             <div key={item.id} className="relative">
-              <Card className="border border-orange-800 w-[300px] h-[60vh] flex flex-col items-center">
+              <Card className="border border-orange-800 lg:w-[300px] w-[380px] lg:h-[60vh] h-[50vh] flex flex-col items-center">
                 <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
                   <Avatar className="w-24 h-24 border-4 border-gray-800 rounded-full">
                     <AvatarImage src={item.image} alt={item.name} />
