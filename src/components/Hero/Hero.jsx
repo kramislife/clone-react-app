@@ -1,5 +1,5 @@
 import { Button } from "../ui/button";
-import { motion, inView } from "framer-motion";
+import { motion } from "framer-motion";
 import {
   sectionVariants,
   titleVariants,
@@ -28,7 +28,7 @@ const Hero = () => {
         </motion.h1>
 
         <motion.p
-          className="text-sm lg:text-lg text-neutral-500 text-center my-5 lg:w-3/4 leading-relaxed"
+          className="text-sm lg:text-lg text-neutral-400 text-center my-5 lg:w-3/4 leading-relaxed"
           variants={buttonVariants}
         >
           Empower your creativity and bring your VR app ideas to life with our
@@ -50,7 +50,8 @@ const Hero = () => {
             loop
             muted
             className="flex lg:w-[70vh] mt-3 lg:my-5 rounded-lg border-2 border-orange-500"
-            variants={buttonVariants}>
+            variants={buttonVariants}
+          >
             <source src={video1} type="video/mp4" />
           </motion.video>
           <motion.video
@@ -58,7 +59,8 @@ const Hero = () => {
             loop
             muted
             className="flex lg:w-[70vh] mt-3 lg:my-5 rounded-md border-2 border-orange-500"
-            variants={buttonVariants}>
+            variants={buttonVariants}
+          >
             <source src={video2} type="video/mp4" />
           </motion.video>
         </div>
