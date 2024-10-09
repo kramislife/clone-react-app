@@ -32,7 +32,7 @@ const Pricing = () => {
           {pricingItems.map((item) => (
             <Card
               key={item.id}
-              className="border border-orange-800 lg:w-[300px] w-[350px] flex flex-col"
+              className="border border-orange-800 lg:w-[300px] w-[350px] flex flex-col transition-transform duration-300 ease-in-out hover:scale-105"
             >
               <CardHeader className="space-y-4 pb-10">
                 <div className="flex items-center">

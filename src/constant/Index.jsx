@@ -9,6 +9,11 @@ import {
   Code,
   Cpu,
   Rocket,
+  Facebook,
+  Instagram,
+  Twitter,
+  LinkedinIcon,
+  Mail,
 } from "lucide-react";
 
 import doe from "../assets/doe.jpg";
@@ -272,5 +277,127 @@ export const testimony = [
       "Elysium VR has been a game-changer for our development team. The platform's intuitive interface and powerful features have helped us create truly immersive virtual environments with ease.",
     image: sarah,
     rating: 4,
+  },
+];
+
+// For Footer.jsx File
+export const footer = [
+  {
+    id: 1,
+    title: "Product",
+    links: [
+      {
+        id: 1,
+        title: "Features",
+        path: "/features",
+      },
+      {
+        id: 2,
+        title: "Workflow",
+        path: "/workflow",
+      },
+      {
+        id: 3,
+        title: "Pricing",
+        path: "/pricing",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Company",
+    links: [
+      {
+        id: 1,
+        title: "About Us",
+        path: "/about-us",
+      },
+      {
+        id: 2,
+        title: "Blog",
+        path: "/blog",
+      },
+      {
+        id: 3,
+        title: "Join Us",
+        path: "/join",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Industries",
+    links: [
+      {
+        id: 1,
+        title: "Startups",
+        path: "/startups",
+      },
+      {
+        id: 2,
+        title: "Venture Capital",
+        path: "/venture",
+      },
+      {
+        id: 3,
+        title: "Private Equity",
+        path: "/equity",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Help",
+    links: [
+      {
+        id: 1,
+        title: "Talk to Support",
+        path: "/support",
+      },
+      {
+        id: 2,
+        title: "Support Docs",
+        path: "/docs",
+      },
+      {
+        id: 3,
+        title: "Terms & Conditions",
+        path: "/terms",
+      },
+      {
+        id: 4,
+        title: "Privacy Policy",
+        path: "/privacy",
+      },
+    ],
+  },
+];
+
+// Social Media Services
+export const socials = [
+  {
+    id: 1,
+    icon: <Facebook strokeWidth={1} />,
+    url: "https://www.facebook.com/marky.gariando",
+  },
+  {
+    id: 2,
+    icon: <Instagram strokeWidth={1} />,
+    url: "https://www.instagram.com/markeyyy._/",
+  },
+  {
+    id: 3,
+    icon: <Twitter strokeWidth={1} />,
+    url: "https://x.com/kramislyf",
+  },
+  {
+    id: 4,
+    icon: <LinkedinIcon strokeWidth={1} />,
+    url: "https://www.linkedin.com/in/edmark-gariando-497794275/",
+  },
+  {
+    id: 5,
+    icon: <Mail strokeWidth={1} />,
+    url: "mailto:egariando619@gmail.com?subject=Let's%20Connect&body=Hello,",
   },
 ];

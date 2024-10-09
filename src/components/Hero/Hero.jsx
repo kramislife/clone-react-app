@@ -41,8 +41,12 @@ const Hero = () => {
           className="flex items-center gap-2 mb-2"
           variants={buttonVariants}
         >
-          <Button variant="gradient">Get Started</Button>
-          <Button variant="border">Learn More</Button>
+          <Button variant="gradient" className="lg:w-full w-[22vh]">
+            Get Started
+          </Button>
+          <Button variant="border" className="lg:w-full w-[22vh]">
+            Learn More
+          </Button>
         </motion.div>
 
         <div className="flex lg:flex-row flex-col justify-center lg:gap-3">
