@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-import { pricingItems } from "../../constant/Index";
+import { pricingItems } from "@constant/Index";
 import { CircleCheck } from "lucide-react";
 
 const Pricing = () => {

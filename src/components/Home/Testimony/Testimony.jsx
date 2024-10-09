@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { testimony } from "../../constant/Index";
+import { testimony } from "@constant/Index";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Star } from "lucide-react";
 

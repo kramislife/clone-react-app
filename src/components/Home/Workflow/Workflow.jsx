@@ -1,6 +1,6 @@
 import React from "react";
-import Code from "../../assets/code2.png";
-import { workFlow } from "../../constant/Index";
+import Code from "@assets/code2.png";
+import { workFlow } from "@constant/Index";
 
 const Workflow = () => {
   return (

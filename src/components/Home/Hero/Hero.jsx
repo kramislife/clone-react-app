@@ -1,13 +1,13 @@
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import { motion } from "framer-motion";
 import {
   sectionVariants,
   titleVariants,
   gradientVariants,
   buttonVariants,
-} from "../../constant/Index";
-import video1 from "../../assets/video1.mp4";
-import video2 from "../../assets/video2.mp4";
+} from "@constant/Index";
+import video1 from "@assets/video1.mp4";
+import video2 from "@assets/video2.mp4";
 
 const Hero = () => {
   return (

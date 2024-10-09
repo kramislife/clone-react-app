@@ -1,4 +1,4 @@
-import { socials } from "../../constant/Index";
+import { socials } from "@constant/Index";
 const Socials = () => {
   return (
     <div className="flex flex-col space-y-4 mt-5">

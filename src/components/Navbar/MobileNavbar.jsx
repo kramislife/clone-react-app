@@ -1,7 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../ui/button";
-import { NavItems } from "../../constant/Index";
+import { NavItems } from "@constant/Index";
 
 // Mobile Navbar component to be used in the Navbar component on smaller screens
 const MobileNavbar = () => {

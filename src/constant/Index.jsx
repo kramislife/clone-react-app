@@ -30,23 +30,23 @@ export const NavItems = [
   },
   {
     id: 2,
-    title: "Features",
-    path: "/features",
+    title: "VR Experience",
+    path: "/experience",
   },
   {
     id: 3,
-    title: "Workflow",
-    path: "/workflow",
+    title: "Community",
+    path: "/community",
   },
   {
     id: 4,
-    title: "Pricing ",
-    path: "/pricing",
+    title: "News",
+    path: "/news",
   },
   {
     id: 5,
-    title: "Testimony",
-    path: "/testimony",
+    title: "FAQ's",
+    path: "/faq",
   },
 ];
 

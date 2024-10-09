@@ -1,5 +1,5 @@
-import logo from "../../assets/logo.png";
-import { footer } from "../../constant/Index";
+import logo from "@assets/logo.png";
+import { footer } from "@constant/Index";
 import Socials from "./Socials";
 import Reserved from "./Reserved";
 import GetStarted from "./GetStarted";

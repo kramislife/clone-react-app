@@ -1,4 +1,4 @@
-import { featuresItems } from "../../constant/Index";
+import { featuresItems } from "@constant/Index";
 
 const Features = () => {
   return (

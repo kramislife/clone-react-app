@@ -1,5 +1,5 @@
-import logo from "../../assets/logo.png";
-import { NavItems } from "../../constant/Index";
+import logo from "@assets/logo.png";
+import { NavItems } from "@constant/Index";
 import { Button } from "../ui/button";
 import MobileNavbar from "./MobileNavbar";
 
