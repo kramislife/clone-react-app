@@ -2,12 +2,13 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../ui/button";
 import { NavItems } from "@constant/Index";
-import { Link } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 // Mobile Navbar component to be used in the Navbar component on smaller screens
 const MobileNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => setIsOpen(!isOpen);
+  const navigate = useNavigate();
   return (
     <>
       <div className="lg:hidden flex flex-col justify-end">
@@ -23,15 +24,23 @@ const MobileNavbar = () => {
                   key={item.id}
                   className="mb-6 p-2 hover:bg-neutral-800 rounded-md"
                 >
-                  <Link to={item.path} className="text-white" onClick={toggleNavbar}>
+                  <NavLink
+                    to={item.path}
+                    className="text-white"
+                    onClick={toggleNavbar}
+                  >
                     {item.title}
-                  </Link>
+                  </NavLink>
                 </li>
               ))}
             </ul>
             <div className="flex flex-col space-y-4">
-              <Button variant="border">Sign in</Button>
-              <Button variant="gradient">Create Account</Button>
+              <Button onClick={() => navigate("/login")} variant="border">
+                Sign in
+              </Button>
+              <Button onClick={() => navigate("/register")} variant="gradient">
+                Create Account
+              </Button>
             </div>
           </div>
         </>
