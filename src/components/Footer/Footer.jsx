@@ -16,7 +16,7 @@ const Footer = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-wrap gap-4 lg:justify-start lg:gap-10 lg:space-x-24 pt-10">
+        <div className="flex flex-wrap gap-4 justify-between lg:justify-start lg:gap-10 lg:space-x-24 pt-10">
           {footer.map((item) => (
             <div key={item.id} className="pl-3 py-3">
               <h6 className="text-lg tracking-tighter text-neutral-500 font-semibold">
