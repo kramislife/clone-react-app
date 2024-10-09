@@ -10,7 +10,7 @@ const GetStarted = () => {
       </Label>
       <div className="lg:relative flex flex-col">
         <Input
-          className="bg-foreground border border-neutral-700/80 rounded-md w-full lg:w-[40vh] "
+          className="bg-foreground border border-neutral-700/80 rounded-md w-[40vh]"
           type="email"
           id="email"
           placeholder="Enter your email"

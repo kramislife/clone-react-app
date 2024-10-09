@@ -7,7 +7,7 @@ import GetStarted from "./GetStarted";
 const Footer = () => {
   return (
     <footer>
-      <div className="bg-background2 py-10 px-6 lg:px-14 border-t border-neutral-700/80">
+      <div className="bg-background2 py-10 px-5 lg:px-14 border-t border-neutral-700/80">
         <div className="flex justify-center lg:justify-start">
           <div className="flex items-center gap-2">
             <img src={logo} alt="" className="h-16 w-16" />
@@ -16,9 +16,9 @@ const Footer = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-wrap gap-10 justify-around lg:justify-start lg:gap-10 lg:space-x-24 pt-10">
+        <div className="flex flex-wrap gap-4 lg:justify-start lg:gap-10 lg:space-x-24 pt-10">
           {footer.map((item) => (
-            <div key={item.id} className="pl-3">
+            <div key={item.id} className="pl-3 py-3">
               <h6 className="text-lg tracking-tighter text-neutral-500 font-semibold">
                 {item.title}
               </h6>
