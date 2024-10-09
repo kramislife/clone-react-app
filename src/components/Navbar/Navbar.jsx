@@ -2,6 +2,7 @@ import logo from "@assets/logo.png";
 import { NavItems } from "@constant/Index";
 import { Button } from "../ui/button";
 import MobileNavbar from "./MobileNavbar";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -20,7 +21,7 @@ const Navbar = () => {
             <ul className="hidden lg:flex items-center ml-14 space-x-14">
               {NavItems.map((item) => (
                 <li key={item.id} className="ml-3">
-                  <a href={item.path}>{item.title}</a>
+                  <Link to={item.path}>{item.title}</Link>
                 </li>
               ))}
             </ul>

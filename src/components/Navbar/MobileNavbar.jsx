@@ -2,6 +2,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../ui/button";
 import { NavItems } from "@constant/Index";
+import { Link } from "react-router-dom";
 
 // Mobile Navbar component to be used in the Navbar component on smaller screens
 const MobileNavbar = () => {
@@ -22,9 +23,9 @@ const MobileNavbar = () => {
                   key={item.id}
                   className="mb-6 p-2 hover:bg-neutral-800 rounded-md"
                 >
-                  <a href={item.path} className="text-white">
+                  <Link to={item.path} className="text-white" onClick={toggleNavbar}>
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
